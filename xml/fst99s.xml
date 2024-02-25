@@ -152,6 +152,9 @@
 		
         <sharedLight linkNode="contour_01" 				filename="lights/sideMarker04_left.xml" />
         <sharedLight linkNode="contour_02" 				filename="lights/sideMarker04_right.xml" />
+		
+        <sharedLight linkNode="reverseLight_01" 		filename="lights/workingLight10_reverse.xml" />
+        <sharedLight linkNode="reverseLight_02" 		filename="lights/workingLight10_reverse.xml" />
 
         <realLights>
             <high>
@@ -159,6 +162,7 @@
                 <light 			node="sidemarkerOrange_real" 	lightTypes="0" />
 				
                 <brakeLight 	node="backLightsHigh" />
+                <reverseLight 	node="reverseLight_white_real" />
 
                 <turnLightLeft 	node="turnLightLeftBack" />
                 <turnLightRight node="turnLightRightBack" />
@@ -573,6 +577,7 @@
         <i3dMapping id="licensePlateLightHigh" 			node="0>0|2|4|2"/>
 		
         <i3dMapping id="sidemarkerOrange_real" 			node="0>0|2|5|0|0"/>
+        <i3dMapping id="reverseLight_white_real" 		node="0>0|2|5|0|1"/>
 		
         <i3dMapping id="sidemarker_01" 					node="0>0|2|5|1|0"/>
         <i3dMapping id="sidemarker_02" 					node="0>0|2|5|1|1"/>
@@ -603,6 +608,9 @@
 		
         <i3dMapping id="contour_01" 					node="0>0|2|5|3|0"/>
         <i3dMapping id="contour_02" 					node="0>0|2|5|3|1"/>
+		
+        <i3dMapping id="reverseLight_01" 				node="0>0|2|5|4|0"/>
+        <i3dMapping id="reverseLight_02" 				node="0>0|2|5|4|1"/>
 		
         <i3dMapping id="fillLevelMarker" 				node="0>0|3"/>
 		
