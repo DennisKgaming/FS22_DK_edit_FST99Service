@@ -111,38 +111,75 @@
     </connectionHoses>
 
     <lights>
-        <sharedLight linkNode="rearLightOvalTwinLED_01" filename="shared/rearLightOvalLEDLeft.xml" />
-        <sharedLight linkNode="rearLightOvalTwinLED_02" filename="shared/rearLightOvalLEDRight.xml" />
+        <sharedLight linkNode="rearLightOvalTwinLED_01" filename="lights/rearLightOvalLEDLeft.xml" />
+        <sharedLight linkNode="rearLightOvalTwinLED_02" filename="lights/rearLightOvalLEDRight.xml" />
 
-        <sharedLight linkNode="plateLightLeft" filename="$data/shared/assets/lights/lizard/plateNumberLight02.xml" />
-        <sharedLight linkNode="plateLightRight" filename="$data/shared/assets/lights/lizard/plateNumberLight02.xml" />
+        <sharedLight linkNode="plateLightLeft" 			filename="$data/shared/assets/lights/lizard/plateNumberLight02.xml" />
+        <sharedLight linkNode="plateLightRight" 		filename="$data/shared/assets/lights/lizard/plateNumberLight02.xml" />
+		
+        <sharedLight linkNode="sidemarker_01" 			filename="lights/sideMarker07Orange.xml" />
+        <sharedLight linkNode="sidemarker_02" 			filename="lights/sideMarker07Orange.xml" />
+        <sharedLight linkNode="sidemarker_03" 			filename="lights/sideMarker07Orange.xml" />
+        <sharedLight linkNode="sidemarker_04" 			filename="lights/sideMarker07Orange.xml" />
+        <sharedLight linkNode="sidemarker_05" 			filename="lights/sideMarker07Orange.xml" />
+        <sharedLight linkNode="sidemarker_06" 			filename="lights/sideMarker07Orange.xml" />
+        <sharedLight linkNode="sidemarker_07" 			filename="lights/sideMarker07Orange.xml" />
+        <sharedLight linkNode="sidemarker_08" 			filename="lights/sideMarker07Orange.xml" />
+        <sharedLight linkNode="sidemarker_09" 			filename="lights/sideMarker07Orange.xml" />
+        <sharedLight linkNode="sidemarker_10" 			filename="lights/sideMarker07Orange.xml" />
+        <sharedLight linkNode="sidemarker_11" 			filename="lights/sideMarker07Orange.xml" />
+        <sharedLight linkNode="sidemarker_12" 			filename="lights/sideMarker07Orange.xml" />
+        <sharedLight linkNode="sidemarker_13" 			filename="lights/sideMarker07Orange.xml" />
+        <sharedLight linkNode="sidemarker_14" 			filename="lights/sideMarker07Orange.xml" />
+        <sharedLight linkNode="sidemarker_15" 			filename="lights/sideMarker07Orange.xml" />
+        <sharedLight linkNode="sidemarker_16" 			filename="lights/sideMarker07Orange.xml" />
+        <sharedLight linkNode="sidemarker_17" 			filename="lights/sideMarker07Orange.xml" />
+        <sharedLight linkNode="sidemarker_18" 			filename="lights/sideMarker07Orange.xml" />
+        <sharedLight linkNode="sidemarker_19" 			filename="lights/sideMarker07Orange.xml" />
+        <sharedLight linkNode="sidemarker_20" 			filename="lights/sideMarker07Orange.xml" />
+		
+        <sharedLight linkNode="frontMarker_01" 			filename="lights/sideMarker07White.xml" />
+        <sharedLight linkNode="frontMarker_02" 			filename="lights/sideMarker07White.xml" />
+        <sharedLight linkNode="frontMarker_03" 			filename="lights/sideMarker07White.xml" />
+        <sharedLight linkNode="frontMarker_04" 			filename="lights/sideMarker07White.xml" />
+        <sharedLight linkNode="frontMarker_05" 			filename="lights/sideMarker07White.xml" />
+		
+        <sharedLight linkNode="backMarker_01" 			filename="lights/sideMarker07Red.xml" />
+        <sharedLight linkNode="backMarker_02" 			filename="lights/sideMarker07Red.xml" />
+        <sharedLight linkNode="backMarker_03" 			filename="lights/sideMarker07Red.xml" />
+        <sharedLight linkNode="backMarker_04" 			filename="lights/sideMarker07Red.xml" />
+        <sharedLight linkNode="backMarker_05" 			filename="lights/sideMarker07Red.xml" />
+		
+        <sharedLight linkNode="contour_01" 				filename="lights/sideMarker04_left.xml" />
+        <sharedLight linkNode="contour_02" 				filename="lights/sideMarker04_right.xml" />
 
         <realLights>
             <high>
-                <light node="backLightsHigh" lightTypes="0" />
-                <brakeLight node="backLightsHigh" />
+                <light 			node="backLightsHigh" 			lightTypes="0" />
+                <light 			node="sidemarkerOrange_real" 	lightTypes="0" />
+				
+                <brakeLight 	node="backLightsHigh" />
 
-                <turnLightLeft node="turnLightLeftBack" />
+                <turnLightLeft 	node="turnLightLeftBack" />
                 <turnLightRight node="turnLightRightBack" />
 
-                <light node="licensePlateLightHigh" lightTypes="0" />
+                <light 			node="licensePlateLightHigh" 	lightTypes="0" />
             </high>
         </realLights>
     </lights>
 
     <lightExtension>
         <strobeLights>
-            <strobeLight linkNode="strobeLight1" 	filename="shared/strobeLightOrange.xml" realLightNode="strobeLight1_Real" 	realLightRange="3.6" blinkStepLength="0.06" blinkPattern="-------X-X-X-X"/>
-            <strobeLight linkNode="strobeLight2" 	filename="shared/strobeLightOrange.xml" realLightNode="strobeLight2_Real" 	realLightRange="3.6" blinkStepLength="0.06" blinkPattern="X-X-X-X-------"/>
-            <strobeLight linkNode="strobeLight3" 	filename="shared/strobeLightOrange.xml" realLightNode="strobeLight3_Real" 	realLightRange="3.6" blinkStepLength="0.06" blinkPattern="-------X-X-X-X"/>
-            <strobeLight linkNode="strobeLight4" 	filename="shared/strobeLightOrange.xml" realLightNode="strobeLight4_Real"	realLightRange="3.6" blinkStepLength="0.06" blinkPattern="X-X-X-X-------"/>
-            <strobeLight linkNode="strobeLight5" 	filename="shared/strobeLightOrange.xml" realLightNode="strobeLight5_Real" 	realLightRange="2.4" blinkStepLength="0.05" blinkPattern="X-XXX------"/>
-            <strobeLight linkNode="strobeLight6" 	filename="shared/strobeLightOrange.xml" realLightNode="strobeLight6_Real" 	realLightRange="2.4" blinkStepLength="0.05" blinkPattern="------X-XXX"/>
-			
-            <strobeLight linkNode="strobeLight7" 	filename="shared/strobeLightOrange.xml" realLightNode="strobeLight7_Real" 	realLightRange="2.4" blinkStepLength="0.05" blinkPattern="------X-XXX"/>
-            <strobeLight linkNode="strobeLight8" 	filename="shared/strobeLightOrange.xml" realLightNode="strobeLight8_Real" 	realLightRange="2.4" blinkStepLength="0.05" blinkPattern="X-XXX------"/>
-            <strobeLight linkNode="strobeLight9" 	filename="shared/strobeLightOrange.xml" realLightNode="strobeLight9_Real" 	realLightRange="2.4" blinkStepLength="0.05" blinkPattern="X-XXX------"/>
-            <strobeLight linkNode="strobeLight10"	filename="shared/strobeLightOrange.xml" realLightNode="strobeLight10_Real"	realLightRange="2.4" blinkStepLength="0.05" blinkPattern="------X-XXX"/>
+            <strobeLight linkNode="strobeLight1" 	filename="lights/strobeLightOrange.xml" realLightNode="strobeLight1_Real" 	realLightRange="3.6" blinkStepLength="0.06" blinkPattern="-------X-X-X-X"/>
+            <strobeLight linkNode="strobeLight2" 	filename="lights/strobeLightOrange.xml" realLightNode="strobeLight2_Real" 	realLightRange="3.6" blinkStepLength="0.06" blinkPattern="X-X-X-X-------"/>
+            <strobeLight linkNode="strobeLight3" 	filename="lights/strobeLightOrange.xml" realLightNode="strobeLight3_Real" 	realLightRange="3.6" blinkStepLength="0.06" blinkPattern="-------X-X-X-X"/>
+            <strobeLight linkNode="strobeLight4" 	filename="lights/strobeLightOrange.xml" realLightNode="strobeLight4_Real"	realLightRange="3.6" blinkStepLength="0.06" blinkPattern="X-X-X-X-------"/>
+            <strobeLight linkNode="strobeLight5" 	filename="lights/strobeLightOrange.xml" realLightNode="strobeLight5_Real" 	realLightRange="2.4" blinkStepLength="0.05" blinkPattern="X-XXX------"/>
+            <strobeLight linkNode="strobeLight6" 	filename="lights/strobeLightOrange.xml" realLightNode="strobeLight6_Real" 	realLightRange="2.4" blinkStepLength="0.05" blinkPattern="------X-XXX"/>
+            <strobeLight linkNode="strobeLight7" 	filename="lights/strobeLightOrange.xml" realLightNode="strobeLight7_Real" 	realLightRange="2.4" blinkStepLength="0.05" blinkPattern="------X-XXX"/>
+            <strobeLight linkNode="strobeLight8" 	filename="lights/strobeLightOrange.xml" realLightNode="strobeLight8_Real" 	realLightRange="2.4" blinkStepLength="0.05" blinkPattern="X-XXX------"/>
+            <strobeLight linkNode="strobeLight9" 	filename="lights/strobeLightOrange.xml" realLightNode="strobeLight9_Real" 	realLightRange="2.4" blinkStepLength="0.05" blinkPattern="X-XXX------"/>
+            <strobeLight linkNode="strobeLight10"	filename="lights/strobeLightOrange.xml" realLightNode="strobeLight10_Real"	realLightRange="2.4" blinkStepLength="0.05" blinkPattern="------X-XXX"/>
         </strobeLights>
     </lightExtension>
 
@@ -531,10 +568,41 @@
         <i3dMapping id="strobeLight9_Real" 				node="0>0|2|3|8|0"/>
         <i3dMapping id="strobeLight10" 					node="0>0|2|3|9"/>
         <i3dMapping id="strobeLight10_Real" 			node="0>0|2|3|9|0"/>
-		
         <i3dMapping id="plateLightLeft"					node="0>0|2|4|0"/>
         <i3dMapping id="plateLightRight" 				node="0>0|2|4|1"/>
         <i3dMapping id="licensePlateLightHigh" 			node="0>0|2|4|2"/>
+		
+        <i3dMapping id="sidemarkerOrange_real" 			node="0>0|2|5|0|0"/>
+		
+        <i3dMapping id="sidemarker_01" 					node="0>0|2|5|1|0"/>
+        <i3dMapping id="sidemarker_02" 					node="0>0|2|5|1|1"/>
+        <i3dMapping id="sidemarker_03" 					node="0>0|2|5|1|2"/>
+        <i3dMapping id="sidemarker_04" 					node="0>0|2|5|1|3"/>
+        <i3dMapping id="sidemarker_05" 					node="0>0|2|5|1|4"/>
+        <i3dMapping id="sidemarker_06" 					node="0>0|2|5|1|5"/>
+        <i3dMapping id="sidemarker_07" 					node="0>0|2|5|1|6"/>
+        <i3dMapping id="sidemarker_08" 					node="0>0|2|5|1|7"/>
+        <i3dMapping id="sidemarker_09" 					node="0>0|2|5|1|8"/>
+        <i3dMapping id="sidemarker_10" 					node="0>0|2|5|1|9"/>
+        <i3dMapping id="sidemarker_11" 					node="0>0|2|5|1|10"/>
+        <i3dMapping id="sidemarker_12" 					node="0>0|2|5|1|11"/>
+        <i3dMapping id="sidemarker_13" 					node="0>0|2|5|1|12"/>
+        <i3dMapping id="sidemarker_14" 					node="0>0|2|5|1|13"/>
+        <i3dMapping id="sidemarker_15" 					node="0>0|2|5|1|14"/>
+        <i3dMapping id="sidemarker_16" 					node="0>0|2|5|1|15"/>
+        <i3dMapping id="sidemarker_17" 					node="0>0|2|5|1|16"/>
+        <i3dMapping id="sidemarker_18" 					node="0>0|2|5|1|17"/>
+        <i3dMapping id="sidemarker_19" 					node="0>0|2|5|1|18"/>
+        <i3dMapping id="sidemarker_20" 					node="0>0|2|5|1|19"/>
+		
+        <i3dMapping id="frontMarker_01" 				node="0>0|2|5|2|0"/>
+        <i3dMapping id="frontMarker_02" 				node="0>0|2|5|2|1"/>
+        <i3dMapping id="frontMarker_03" 				node="0>0|2|5|2|2"/>
+        <i3dMapping id="frontMarker_04" 				node="0>0|2|5|2|3"/>
+        <i3dMapping id="frontMarker_05" 				node="0>0|2|5|2|4"/>
+		
+        <i3dMapping id="contour_01" 					node="0>0|2|5|3|0"/>
+        <i3dMapping id="contour_02" 					node="0>0|2|5|3|1"/>
 		
         <i3dMapping id="fillLevelMarker" 				node="0>0|3"/>
 		
@@ -543,6 +611,12 @@
         <i3dMapping id="rearDoor" 						node="0>0|5"/>
         <i3dMapping id="dangerousGoodsSign_02" 			node="0>0|5|1"/>
         <i3dMapping id="hydraulicRef" 					node="0>0|5|2"/>
+		
+        <i3dMapping id="backMarker_01" 					node="0>0|5|4|1|0"/>
+        <i3dMapping id="backMarker_02" 					node="0>0|5|4|1|1"/>
+        <i3dMapping id="backMarker_03" 					node="0>0|5|4|1|2"/>
+        <i3dMapping id="backMarker_04" 					node="0>0|5|4|1|3"/>
+        <i3dMapping id="backMarker_05" 					node="0>0|5|4|1|4"/>
 		
         <i3dMapping id="hydrulicRams" 					node="0>0|6"/>
         <i3dMapping id="hydrulicPunches" 				node="0>0|6|0"/>
