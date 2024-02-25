@@ -300,16 +300,16 @@
                 <Light name="strobeLight6_Real" rotation="90 0 -20" visibility="false" clipDistance="75" nodeId="144" type="spot" color="0.31 0.14 0" emitDiffuse="true" emitSpecular="true" range="3" coneAngle="100" dropOff="3"/>
               </TransformGroup>
               <TransformGroup name="strobeLight7" translation="0.73 1.5285 -2.41453" rotation="-90 0 0" nodeId="272">
-                <Light name="strobeLight6_Real" rotation="90 0 -20" visibility="false" clipDistance="75" nodeId="273" type="spot" color="0.31 0.14 0" emitDiffuse="true" emitSpecular="true" range="3" coneAngle="100" dropOff="3"/>
+                <Light name="strobeLight7_Real" rotation="90 0 -20" visibility="false" clipDistance="75" nodeId="273" type="spot" color="0.31 0.14 0" emitDiffuse="true" emitSpecular="true" range="3" coneAngle="100" dropOff="3"/>
               </TransformGroup>
               <TransformGroup name="strobeLight8" translation="-0.73 1.5285 -2.41453" rotation="-90 0 0" nodeId="284">
-                <Light name="strobeLight6_Real" rotation="90 0 -20" visibility="false" clipDistance="75" nodeId="285" type="spot" color="0.31 0.14 0" emitDiffuse="true" emitSpecular="true" range="3" coneAngle="100" dropOff="3"/>
+                <Light name="strobeLight8_Real" rotation="90 0 -20" visibility="false" clipDistance="75" nodeId="285" type="spot" color="0.31 0.14 0" emitDiffuse="true" emitSpecular="true" range="3" coneAngle="100" dropOff="3"/>
               </TransformGroup>
               <TransformGroup name="strobeLight9" translation="0.729607 0.605339 -2.41476" rotation="-90 0 0" nodeId="289">
-                <Light name="strobeLight6_Real" rotation="90 0 -20" visibility="false" clipDistance="75" nodeId="290" type="spot" color="0.31 0.14 0" emitDiffuse="true" emitSpecular="true" range="3" coneAngle="100" dropOff="3"/>
+                <Light name="strobeLight9_Real" rotation="90 0 -20" visibility="false" clipDistance="75" nodeId="290" type="spot" color="0.31 0.14 0" emitDiffuse="true" emitSpecular="true" range="3" coneAngle="100" dropOff="3"/>
               </TransformGroup>
               <TransformGroup name="strobeLight10" translation="-0.724376 0.605466 -2.41537" rotation="-90 0 0" nodeId="294">
-                <Light name="strobeLight6_Real" rotation="90 0 -20" visibility="false" clipDistance="75" nodeId="295" type="spot" color="0.31 0.14 0" emitDiffuse="true" emitSpecular="true" range="3" coneAngle="100" dropOff="3"/>
+                <Light name="strobeLight10_Real" rotation="90 0 -20" visibility="false" clipDistance="75" nodeId="295" type="spot" color="0.31 0.14 0" emitDiffuse="true" emitSpecular="true" range="3" coneAngle="100" dropOff="3"/>
               </TransformGroup>
             </TransformGroup>
             <TransformGroup name="plateLights" nodeId="145">

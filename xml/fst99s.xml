@@ -132,12 +132,17 @@
 
     <lightExtension>
         <strobeLights>
-            <strobeLight linkNode="strobeLight1" filename="shared/strobeLightOrange.xml" realLightNode="strobeLight1_Real" realLightRange="3.6" blinkStepLength="0.06" blinkPattern="-------X-X-X-X"/>
-            <strobeLight linkNode="strobeLight2" filename="shared/strobeLightOrange.xml" realLightNode="strobeLight2_Real" realLightRange="3.6" blinkStepLength="0.06" blinkPattern="X-X-X-X-------"/>
-            <strobeLight linkNode="strobeLight3" filename="shared/strobeLightOrange.xml" realLightNode="strobeLight3_Real" realLightRange="3.6" blinkStepLength="0.06" blinkPattern="-------X-X-X-X"/>
-            <strobeLight linkNode="strobeLight4" filename="shared/strobeLightOrange.xml" realLightNode="strobeLight4_Real" realLightRange="3.6" blinkStepLength="0.06" blinkPattern="X-X-X-X-------"/>
-            <strobeLight linkNode="strobeLight5" filename="shared/strobeLightOrange.xml" realLightNode="strobeLight5_Real" realLightRange="2.4" blinkStepLength="0.05" blinkPattern="X-XXX------"/>
-            <strobeLight linkNode="strobeLight6" filename="shared/strobeLightOrange.xml" realLightNode="strobeLight6_Real" realLightRange="2.4" blinkStepLength="0.05" blinkPattern="------X-XXX"/>
+            <strobeLight linkNode="strobeLight1" 	filename="shared/strobeLightOrange.xml" realLightNode="strobeLight1_Real" 	realLightRange="3.6" blinkStepLength="0.06" blinkPattern="-------X-X-X-X"/>
+            <strobeLight linkNode="strobeLight2" 	filename="shared/strobeLightOrange.xml" realLightNode="strobeLight2_Real" 	realLightRange="3.6" blinkStepLength="0.06" blinkPattern="X-X-X-X-------"/>
+            <strobeLight linkNode="strobeLight3" 	filename="shared/strobeLightOrange.xml" realLightNode="strobeLight3_Real" 	realLightRange="3.6" blinkStepLength="0.06" blinkPattern="-------X-X-X-X"/>
+            <strobeLight linkNode="strobeLight4" 	filename="shared/strobeLightOrange.xml" realLightNode="strobeLight4_Real"	realLightRange="3.6" blinkStepLength="0.06" blinkPattern="X-X-X-X-------"/>
+            <strobeLight linkNode="strobeLight5" 	filename="shared/strobeLightOrange.xml" realLightNode="strobeLight5_Real" 	realLightRange="2.4" blinkStepLength="0.05" blinkPattern="X-XXX------"/>
+            <strobeLight linkNode="strobeLight6" 	filename="shared/strobeLightOrange.xml" realLightNode="strobeLight6_Real" 	realLightRange="2.4" blinkStepLength="0.05" blinkPattern="------X-XXX"/>
+			
+            <strobeLight linkNode="strobeLight7" 	filename="shared/strobeLightOrange.xml" realLightNode="strobeLight7_Real" 	realLightRange="2.4" blinkStepLength="0.05" blinkPattern="------X-XXX"/>
+            <strobeLight linkNode="strobeLight8" 	filename="shared/strobeLightOrange.xml" realLightNode="strobeLight8_Real" 	realLightRange="2.4" blinkStepLength="0.05" blinkPattern="X-XXX------"/>
+            <strobeLight linkNode="strobeLight9" 	filename="shared/strobeLightOrange.xml" realLightNode="strobeLight9_Real" 	realLightRange="2.4" blinkStepLength="0.05" blinkPattern="X-XXX------"/>
+            <strobeLight linkNode="strobeLight10"	filename="shared/strobeLightOrange.xml" realLightNode="strobeLight10_Real"	realLightRange="2.4" blinkStepLength="0.05" blinkPattern="------X-XXX"/>
         </strobeLights>
     </lightExtension>
 
@@ -518,6 +523,15 @@
         <i3dMapping id="strobeLight5_Real" 				node="0>0|2|3|4|0"/>
         <i3dMapping id="strobeLight6" 					node="0>0|2|3|5"/>
         <i3dMapping id="strobeLight6_Real" 				node="0>0|2|3|5|0"/>
+        <i3dMapping id="strobeLight7" 					node="0>0|2|3|6"/>
+        <i3dMapping id="strobeLight7_Real" 				node="0>0|2|3|6|0"/>
+        <i3dMapping id="strobeLight8" 					node="0>0|2|3|7"/>
+        <i3dMapping id="strobeLight8_Real" 				node="0>0|2|3|7|0"/>
+        <i3dMapping id="strobeLight9" 					node="0>0|2|3|8"/>
+        <i3dMapping id="strobeLight9_Real" 				node="0>0|2|3|8|0"/>
+        <i3dMapping id="strobeLight10" 					node="0>0|2|3|9"/>
+        <i3dMapping id="strobeLight10_Real" 			node="0>0|2|3|9|0"/>
+		
         <i3dMapping id="plateLightLeft"					node="0>0|2|4|0"/>
         <i3dMapping id="plateLightRight" 				node="0>0|2|4|1"/>
         <i3dMapping id="licensePlateLightHigh" 			node="0>0|2|4|2"/>
