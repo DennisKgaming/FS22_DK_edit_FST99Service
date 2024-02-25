@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="66">
+    <author>GtX</author>
+
+    <version>1.0.0.0</version>
+
+    <translations>
+        <de>CHaWo, Ralf</de>
+        <es>Vanquish081</es>
+        <ru>DisPlayBoy</ru>
+    </translations>
+
+    <title>
+        <en>Field Service Trailer</en>
+        <de>Service Anhänger</de>
+        <fr>Remorque De Service</fr>
+        <ru>Сервисный Прицеп FST-99S</ru>
+    </title>
+
+    <description>
+        <en>
+        <![CDATA[Remote Service trailer that enables you to configure and repair vehicles in the field and can also carry fuel if required.
+
+Rear door must be open to activate workshop menu. When a vehicle enters the trigger the servicing information will be available on the laptop computer.
+
+To begin refuelling first start the engine and then select the required work modes from list below:
+
+  - Diesel: Refuel or refill vehicles from storage tank
+  - Electric Charge: Charge electric vehicles using generator
+  - DEF: Refuel or refill vehicles from storage tank
+
+Price: 24500 $
+Capacities:
+  - Configuration Standard: Diesel 2875 l
+  - Configuration +DEF: Diesel 2000 l / DEF 850 l
+
+Store Configurations:
+
+  - Strobe Lights: Activated using 'Beacon' key binding.
+  - Glowing Markers: Square markers that glow 'Blue' when a valid vehicle enters the trigger.
+  - Configuration +DEF: Option for users of the AdBlue / Def Pack mod or similar, not required in base game.
+
+Trigger markers can be disabled if not required at each player trigger.
+
+NOTE: When using 'Automatic Engine Start' you will be required to remain in the vehicle to continue 'refuelling' or 'charging'. This is a base game requirement when filling from a trailer with this mode active.]]>
+        </en>
+        <de>
+        <![CDATA[Remote-Service-Anhänger, mit dem Sie Fahrzeuge vor Ort konfigurieren, reparieren und bei Bedarf auch Kraftstoff transportieren können.
+
+Die hintere Tür muss geöffnet sein, um das Werkstattmenü zu aktivieren. Wenn ein Fahrzeug in den Trigger eintritt, sind die Wartungsinformationen auf dem Laptop verfügbar.
+
+Um mit dem Auftanken zu beginnen, starten Sie zuerst den Motor und wählen Sie dann die erforderlichen Arbeitsmodi aus der folgenden Liste aus:
+
+- Diesel: Tanken oder Nachfüllen von Fahrzeugen aus dem Speichertank
+- Elektrische Ladung: Aufladen von Elektrofahrzeugen über Generator
+- DEF: Betanken oder Nachfüllen von Fahrzeugen aus dem Speichertank
+
+Preis: 24500 €
+Kapazitäten:
+  - Konfiguration Standard: Diesel 2875 l
+  - Konfiguration +DEF: Diesel 2000 l / DEF 850 ​​l
+
+Shop-Konfigurationen:
+
+- Blitzlichter: Wird mit der 'Rundumleuchten' Taste aktiviert.
+- Leuchtende Markierungen: Quadratische Markierungen, die 'blau' leuchten, wenn ein gültiges Fahrzeug in den Trigger eintritt.
+- Konfiguration +DEF: Option für Benutzer des Mods "AdBlue Paket" oder ähnlich, im Basisspiel nicht erforderlich.
+
+Trigger-Marker können deaktiviert werden, wenn sie nicht bei jedem Spieler-Trigger benötigt werden.
+
+HINWEIS: Wenn Sie die Funktion "Automatischer Motorstart" verwenden, müssen Sie im Fahrzeug bleiben, um den Tankvorgang fortzusetzen. Dies ist eine Grundvoraussetzung für das Betanken von einem Anhänger, wenn dieser Modus aktiviert ist.]]>
+        </de>
+        <fr>
+        <![CDATA[Remorque de service à distance qui vous permet de configurer et de réparer des véhicules sur le terrain et peut également transporter du carburant si nécessaire.
+
+La porte arrière doit être ouverte pour activer le menu atelier. Lorsqu'un véhicule entre dans le déclencheur, les informations d'entretien seront disponibles sur l'ordinateur portable.
+
+Pour commencer le ravitaillement en carburant, démarrez d'abord le moteur, puis sélectionnez les modes de travail requis dans la liste ci-dessous:
+
+  - Diesel: faire le plein ou recharger les véhicules à partir du réservoir de stockage
+  - Charge électrique: chargez les véhicules électriques à l'aide d'un générateur
+  - DEF: faire le plein ou recharger les véhicules à partir du réservoir de stockage
+
+Prix ​​: 24500 €
+Capacité:
+  - Configuration par défaut : Diesel 2875 l
+  - Configuration +DEF : Gazole 2000 l / DEF 850 l
+
+Configurations de magasin :
+
+  - Lumières stroboscopiques: activées à l'aide de la liaison de clé 'Beacon'.
+  - Marqueurs lumineux: marqueurs carrés qui s'allument en 'bleu' lorsqu'un véhicule valide entre dans la gâchette.
+  - Configuration +DEF: Option pour les utilisateurs du mod AdBlue / Def Pack ou similaire, non requise dans le jeu de base.
+
+Les marqueurs de déclenchement peuvent être désactivés s'ils ne sont pas nécessaires à chaque déclenchement de joueur.
+
+REMARQUE: Lors de l'utilisation du 'Démarrage automatique du moteur', vous devrez rester dans le véhicule pour continuer à 'faire le plein' ou 'charger'. Il s'agit d'une exigence de base du jeu lors du remplissage à partir d'une bande-annonce avec ce mode actif.]]>
+        </fr>
+    </description>
+
+    <multiplayer supported="true"/>
+    <iconFilename>icon_fst99s.dds</iconFilename>
+
+    <l10n>
+        <text name="function_serviceTrailer">
+            <en>The FST-99S. This service trailer carries all the tools needed for you to configure vehicles in the field. You can also carry fuel if required.</en>
+            <de>Der FST-99S. Dieser Service-Anhänger hat alles, was benötigt wird, um Fahrzeuge außerhalb der Werkstatt zu konfigurieren oder zu reparieren. Fahrzeuge können bei Bedarf auch am Anhänger betankt werden.</de>
+            <fr>Le FST-99S. Cette remorque de service contient tous les outils nécessaires pour configurer les véhicules sur le terrain. Vous pouvez également transporter du carburant si nécessaire.</fr>
+            <es>FST-99S, remolque de servicio, o asistencia, con todas las herramientas para configurar vehículos in situ. También dispone de un depósito para transportar combustible si es necesario.</es>
+            <ru>Сервисный прицеп FST-99S содержит всё необходимое для настройки транспортных средств в полевых условиях. При необходимости Вы также можете перевезти топливо.</ru>
+        </text>
+
+        <text name="input_SV_TOGGLE_OPERATION">
+            <en>Activate / Deactivate</en>
+            <de>Aktivieren/Deaktivieren</de>
+            <es>Activado / Desactivado</es>
+            <ru>Включить/выключить</ru>
+        </text>
+
+        <text name="input_SV_TOGGLE_MARKERS">
+            <en>Show / Hide</en>
+            <de>Anzeigen/Ausblenden</de>
+            <es>Mostrar / Ocultar</es>
+            <ru>Показать/скрыть маркеры</ru>
+        </text>
+
+        <text name="action_deactivateService">
+            <en>Deactivate Service Function</en>
+            <de>Servicefunktionen deaktivieren</de>
+            <es>Desactivar Función Servicio</es>
+            <ru>Деактив. сервисные функции</ru>
+        </text>
+
+        <text name="action_activateService">
+            <en>Activate Service Function</en>
+            <de>Servicefunktionen aktivieren</de>
+            <es>Activar Función Servicio</es>
+            <ru>Актив. сервисные функции</ru>
+        </text>
+
+        <text name="action_showMarkers">
+            <en>Show Markers</en>
+            <de>Markierungen aktivieren</de>
+            <es>Mostrar Marcas</es>
+            <ru>Показать маркеры</ru>
+        </text>
+
+        <text name="action_hideMarkers">
+            <en>Hide Markers</en>
+            <de>Markierungen deaktivieren</de>
+            <es>Ocultar Marcas</es>
+            <ru>Скрыть маркеры</ru>
+        </text>
+
+        <text name="configuration_glowingMarkers">
+            <en>Glowing Markers</en>
+            <de>Leuchtende Markierungen</de>
+            <es>Marcadores Luminosos</es>
+            <ru>Светящиеся маркеры</ru>
+        </text>
+
+        <text name="configuration_strobeLights">
+            <en>Strobe Lights</en>
+            <de>Blitzlichter</de>
+            <es>Luces Estroboscópicas</es>
+            <ru>Стробоскопы</ru>
+        </text>
+
+        <text name="typeDesc_serviceTrailer">
+            <en>Service Trailer</en>
+            <de>Service-Anhänger</de>
+            <es>Remolque Servicio</es>
+            <ru>Сервисный прицеп</ru>
+        </text>
+    </l10n>
+
+    <specializations>
+        <specialization name="serviceVehicle"   className="ServiceVehicle"   filename="scripts/ServiceVehicle.lua"/>
+        <specialization name="lightExtension"   className="LightExtension"   filename="scripts/LightExtension.lua"/>
+    </specializations>
+
+    <vehicleTypes>
+        <type name="fieldServiceTrailer" parent="baseFillable" className="Vehicle" filename="$dataS/scripts/vehicles/Vehicle.lua">
+            <specialization name="serviceVehicle"/>
+        </type>
+
+        <type name="fieldServiceTrailerStrobes" parent="baseFillable" className="Vehicle" filename="$dataS/scripts/vehicles/Vehicle.lua">
+            <specialization name="serviceVehicle"/>
+            <specialization name="lightExtension"/>
+        </type>
+    </vehicleTypes>
+
+    <brandColors>
+        <color name="FARMINGINOVATIONS_RED" value="0.3941 0.0084 0.0220 1"/>
+    </brandColors>
+
+    <inputBinding>
+        <actionBinding action="SV_TOGGLE_OPERATION">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_m"/>
+        </actionBinding>
+        <actionBinding action="SV_TOGGLE_MARKERS">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_l"/>
+        </actionBinding>
+    </inputBinding>
+
+    <actions>
+        <action name="SV_TOGGLE_OPERATION"/>
+        <action name="SV_TOGGLE_MARKERS"/>
+    </actions>
+
+    <storeItems>
+        <storeItem rootNode="vehicle" xmlFilename="fst99s.xml"/>
+    </storeItems>
+</modDesc>
