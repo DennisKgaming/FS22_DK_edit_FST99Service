@@ -99,7 +99,7 @@ REMARQUE: Lors de l'utilisation du 'Démarrage automatique du moteur', vous devr
     </description>
 
     <multiplayer supported="true"/>
-    <iconFilename>icon_fst99s.dds</iconFilename>
+    <iconFilename>icons/icon_fst99s.dds</iconFilename>
 
     <l10n>
         <text name="function_serviceTrailer">
@@ -209,6 +209,6 @@ REMARQUE: Lors de l'utilisation du 'Démarrage automatique du moteur', vous devr
     </actions>
 
     <storeItems>
-        <storeItem rootNode="vehicle" xmlFilename="fst99s.xml"/>
+        <storeItem rootNode="vehicle" xmlFilename="xml/fst99s.xml"/>
     </storeItems>
 </modDesc>
